@@ -89,7 +89,7 @@ def bootstrap(tmpdir=None):
     install_parse_args = InstallCommand.parse_args
 
     def cert_parse_args(self, args):
-        # If cert isn't specified in config or environment, we provide our
+        # If cert isn't specified in config or environment, we provide our 
         # own certificate through defaults.
         # This allows user to specify custom cert anywhere one likes:
         # config, environment variable or argv.
